@@ -1,0 +1,416 @@
+/*
+In Existing Style.css And style2.css have few problem.
+Also using this Style3.css file have to overwrite few bootstrat and existing css code.
+Note: Please Add this css blow every stylesheet either some code can't take action.  
+*/
+/* 
+    Created on   : Aug 12, 2017, 11:45:37 AM
+    Author       : Debdulal Baidya.
+    Author Email : Ovi.debdulalbaidya@gmail.com 
+*/
+/* Common Style */
+/* Margin */
+.m-t--10{
+    margin-top: -10px;
+}
+.no-t-m{
+    margin-top: 0px !important;
+}   
+.m-t-5{
+    margin-top: 5px;
+}
+.m-t-15{
+    margin-top: 15px;
+}
+.m-t-35{
+    margin-top: 35px;
+}
+.no-b-m{
+    margin-bottom: 0px !important;
+}
+.m-l-50{
+    margin-left: 50px;
+}
+.m-r-50{
+    margin-right: 50px;
+}
+.m-b-10{
+    margin-bottom: 10px;
+}
+/* /Margin */
+/* Padding */
+
+.p-t-0{
+    padding-top: 0px !important;
+}
+.p-t-50{
+    padding-top: 50px !important;   
+}
+.p-t-100{
+    padding-top: 100px !important;
+}
+.p-b-0{
+    padding-bottom: 0px !important;
+}
+.p-b-10{
+    padding-bottom: 10px !important;
+}
+/* /Padding */
+/* style for everywhere */
+.left-float{
+    float: left;
+}
+.notice{
+    background-color: white;
+    box-shadow: none;
+}  
+
+.container-fluid{
+    padding: 0px 0px; 
+}
+.okbnt{
+    padding: 4px;
+    border-radius: 24px;
+    color: black;
+    background: white;
+    border: 1px solid #cbcbcb;
+}   
+
+
+
+
+
+
+
+
+
+
+
+.userImg .placeMiddle{
+
+    margin: 20px auto;
+    display: block;
+    width: 265px;
+}
+.sidebar-afix {
+    border-left: 2px solid #ededed;
+}
+
+.sidebar-afix .bhoechie-tab-menu .list-group-item{
+    border:none;
+}
+
+
+.item{
+    background: white;
+    box-shadow: 0px 1px 2px rgba(206, 206, 206, 0.8);
+    background-size: 100% 100%;
+    height: 270px;
+    width: 263px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.item .cover-photo{
+    height: 150px;
+    width: 263px;
+    background: url('http://cdn.playbuzz.com/cdn/7b4f711d-2a46-45dc-bea7-85a15ffa587a/b9f955c1-d8ad-4778-862d-e66ec2c38df1.jpg');
+    border-radius: 150px 150px 0 0;
+    background-size: 300px;
+    background-position: top;
+    margin-left: -14px;
+}
+#user {
+    width: 55px;
+    height: 55px;
+    border-radius: 27.5px;
+    background: green;
+    background-image: none;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-size: 80px;
+    background-position: bottom;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 190px;
+    border: 2px white solid;
+}
+.star{
+    margin-left: 8px;
+    margin-top: 12px;
+}
+.star i {
+    font-size: 17pt;
+    display: inline-block;
+    position: relative;
+    width: 1.2em;
+    color: #ffa742;
+}
+.pro-info p {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 7px;
+    font-size: 9pt;
+    line-height: 14px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.carousel-control.left{
+    background: none;
+}
+.carousel-control.right{
+    background: none;
+}
+.carousel-control span{
+    color: red;
+}
+.dd{
+    width: 263px;
+}
+
+
+
+
+
+/* Search Section */
+.searchBar select{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.searchBar .searchbtn{
+
+    border: solid 1px #ccc;
+    padding-top: 4px;
+    width: 166px;
+    height: 36px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.searchbox-ov {
+    outline: none;
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+    background: #ededed url("https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png") no-repeat 9px center !important;
+    border: solid 1px #ccc;
+    padding: 7px 29px !important;
+    width: 120px !important;
+    height: 35px !important;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.searchbox-ov:focus {
+    width: 180px !important;
+    background-color: #fff;
+    border-color: #66CC75;
+    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+
+}
+.rightSection{
+    width: 80%;
+}
+.rightSection .hederLogoSec{
+    margin-top: 15px;
+}
+.rightSection  #menu li:last-child a{
+    margin-top: 25px;
+}
+.rightSection .border-box{
+    margin-top: 3px;
+}
+/* Style Befole execute javascript code
+** This Code should be change after js fire
+*/
+
+#appointmentsCanceledReason,#appointmentsInterviewsShow{
+    display: none;
+}
+
+
+/* Style For Support Ticket */
+.supportTicket .btn {
+    padding: 6px 15px;
+}
+.supportTicket .box-head-dark {
+    background-color: #181b1f;
+    border-top: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    color: #D1D1D1;
+    font-size: 16px;
+    padding: 6px 15px;
+}
+.supportTicket .box-content {
+    background-color: #FFFFFF;
+    background-repeat: repeat;
+    border: 1px solid #E7E7E7;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(231, 231, 231);
+    border-top: 0;
+}
+.supportTicket .table {
+    margin-bottom: 0;
+}
+.supportTicket .tickets-new-details .select2-container {
+    display: block !important;
+}
+.supportTicket .tickets-new-details .select2-choice {
+    margin: auto;
+}
+.supportTicket .tickets-new #editor1{
+    font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+    font-size: 12px;
+    color: #333;
+}
+.supportTicket .label {
+    border-radius: 1px !important;
+    padding-bottom: 5px;
+    padding-top: 6px;
+}
+.supportTicket .label-purple {
+    background-color: #857198;
+}
+/* Style for My Job Task */
+/* Progress Bar */
+.task-progressbar {
+    margin-top: 35px;
+}
+.progress-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #011627;
+    margin: 0 0 20px;
+}
+.progress{
+    height: 10px;
+    background: #cbcbcb;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+.progress .progress-bar{
+    box-shadow: none;
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar:after{
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-bottom: 21px solid transparent;
+    position: absolute;
+    top: -26px;
+    right: -12px;
+}
+.progress .progress-value{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+.progress.red .progress-bar:after{
+    border-bottom-color: red;
+}
+.progress.green .progress-bar:after{
+    border-bottom-color: #70963c;
+}
+.progress.yellow .progress-bar:after{
+    border-bottom-color: #ffc800;
+}
+.progress.blue .progress-bar:after{
+    border-bottom-color: #3485ef;
+}
+.progress.orange .progress-bar:after{
+    border-bottom-color: #db9f08;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}
+
+/* Popup Modal */
+/*#rejectedjob,#SearchaJobAreaMyOffersForWorkWaiting{
+    padding-top: 100px;
+}
+#rejectedjob .modal-footer button{
+    margin-left: -50px;
+}
+#rejectedjob .modal-footer{
+    text-align: left;
+    margin: 0px auto;
+    width: 0px;
+}
+#rejectedjob .modal-footer i{
+    font-size: 22px;
+}
+#rejectedjob .modal-footer span{
+    font-size: 18px;
+    margin-top: -3px;
+}
+.modal-body .ov{
+    width: 330px;
+    margin: 0px auto;
+    border: 3px solid #e5e0e0;
+    padding: 10px;
+}
+.modal-body .username{
+    color:#97be2e;
+}
+ .modal-body select{
+    width: 50%;
+    margin: 0px 140px;
+}
+*/
+
+
+.modal-dialog{
+    width: 421px;
+}
+.cardheader{
+    background: url('../img/country_road_summer_drive.jpg');
+    background-size: auto auto;
+    background-size: cover;
+    height: 135px;
+}
+#MyOffersForWorkWaiting .ov .img{
+    max-width: 80%;
+    width: auto;
+    display: inline-block;
+    height: 80px;
+    margin-top: -50px;
+}
+#MyOffersForWorkWaiting .ov .username{
+    color: #97be2e;
+}
+#MyOffersForWorkAccepted .ov-h4 h4{
+    padding-left: 20px;
+}

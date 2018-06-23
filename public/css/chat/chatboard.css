@@ -1,0 +1,208 @@
+.chatHistory {
+    background: #eee;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+.chatHistory .message_details {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #222222;
+}
+.chatHistory .message_details p{
+    color: #222222;
+}
+.chatHistory .message_details img{
+    border-radius: 5px;
+    width: 280px;
+    height: 180px;
+}
+.chatHistory .message_details a {
+    width: 280px;
+    height: 180px;
+    position: relative;
+    display: block;
+    border-radius: 5px;
+}
+.chatHistory .message_details span.url_caption {
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+.chatHistory .message_details span.url_caption:hover{
+    background: rgba(0,0,0,0.7);
+    transition: all 0.5s;
+}
+.chatHistory .message_details span.url_caption h6 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+}
+.chatHistory .message_details span.url_caption p {
+    color: #fff;
+}
+.chatHistory .post_avatar .post_avatar_link {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    border-radius: 90%;
+    border: 2px solid #ddd;
+    background-size: cover;
+}
+.chatHistory .message_received .message_details,
+.chatHistory .message_received .post_avatar
+{
+    float: left;
+    position: relative;
+}
+.chatHistory .message_received .post_avatar{
+    margin-right: 15px;
+}
+.chatHistory .message_send .message_details,
+.chatHistory .message_send .post_avatar
+{
+    float: right;
+    position: relative;
+}
+.chatHistory .message_send .post_avatar{
+    margin-left: 15px;
+}
+#chatHistory .chatHistory .message_send, #chatHistory .chatHistory .message_received{
+    margin: 10px 0px;
+}
+#chatHistory .chatHistory .message_send .post_avatar .post_avatar_link span.online {
+    right: -2px;
+    position: absolute;
+    bottom: 2px;
+    top: auto;
+}
+#chatHistory .chatHistory .message_received .post_avatar .post_avatar_link span.online {
+    left: -2px;
+    position: absolute;
+    bottom: 2px;
+    top: auto;
+}
+.chatHistory .message_send .message_details:before {
+    content: "";
+    border-color: #fff transparent transparent;
+    border-width: 12px 12px 0px 0px;
+    border-style: solid;
+    right: -12px;
+    position: absolute;
+    top: 30px;
+}
+.chatHistory .message_received .message_details:before {
+    content: "";
+    border-color: transparent #fff transparent transparent;
+    border-width: 0px 12px 12px 0px;
+    border-style: solid;
+    left: -12px;
+    position: absolute;
+    top: 30px;
+}
+
+.chatHistory #chatImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.chatHistory #chatImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.chatHistory .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.chatHistory .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+.chatHistory #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.chatHistory .modal-content, .chatHistory #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.chatHistory .close {
+    /*position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;*/
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    float: none;
+}
+
+.chatHistory .close:hover,
+.chatHistory .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .chatHistory .modal-content {
+        width: 100%;
+    }
+}

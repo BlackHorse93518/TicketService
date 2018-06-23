@@ -1,0 +1,20 @@
+@media screen and (max-width: 1199px) {
+    .search-result ul.companylist {
+        margin: 0 0px;
+    }
+    ul.companylist>li.company h5 {
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .chatHistory .message_details.text_message{
+        max-width: 380px;
+        width: 100%;
+    }
+    .chatHistory .message_details.img_message, .chatHistory .message_details.img_message{
+        max-width: 280px;
+    }
+    .search-result h5.jobtitle{
+        margin: 0;
+    }
+}
